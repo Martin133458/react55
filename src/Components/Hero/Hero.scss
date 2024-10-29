@@ -1,0 +1,27 @@
+.hero {
+
+    &__wrap {
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h1 {
+            font-size: 64px;
+            min-width: 800px;
+            font-weight: 500;
+        }
+    }
+
+ &__box {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    p {
+        background-color: #fff;
+    }
+ }
+}
